@@ -1,0 +1,40 @@
+body {
+  background-color: rgba(122, 122, 233, 0.1);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.tooltipNotVisible {
+  position: absolute;
+  display: none;
+}
+
+.tooltipVisible {
+  border: 1px solid orange;
+  padding: 4px;
+  z-index: 10;
+  background-color: rgba(0, 0, 134, 0.5);
+}
+
+.tooltipHeading {
+  font-size: 12px;
+}
+
+.tooltipPopulation {
+  font-size: 12px;
+}
+
+.legendWrapper {
+  width: 100vw;
+  position: relative;
+  left: 0;
+}
+
+.legend {
+  height: 600px;
+  position: absolute;
+  left: calc(50% - 300px);
+}
